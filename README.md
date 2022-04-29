@@ -1,16 +1,36 @@
-# cubotest
+# Mobile Front end Challenge by CuboConnect
 
-A new Flutter project.
+Desenvolvido para fins de teste de habilidades Técnicas
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+##  Descrição do App
 
-A few resources to get you started if this is your first Flutter project:
+Tem como objectivo ajudar o utilizador a anotar quais produtos compra com frequência e o valor que gasta
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+---
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Funcionalidades
+- cadastrar os itens com seus respectivos valores.
+-ver os itens cadastrados com seus respectivos valores
+-“desmarcar” alguns itens Que não deseja comprar no dia de compra para recalcular o valor total previsto
+  
+---
+
+## Tecnologias
+
+o Aplicativo foi desenvolvido com o framework
+- [Flutter](https://flutter.dev/)
+- [SQLITE](https://pub.dev/packages/sqflite) como base de dados Local
+-[The Well App](https://pub.dev/packages/get_storage) como gerenciador de estado
+
+---
+ ## Instalação
+-Faça um clone  do repositório
+-Instale  as dependencias do projecto ao executar um  'flutter pub get'
+-Flutter Run
+
+---
+
+#### Baixar APK
+### [Link pra Baixar O APK](https://www.mediafire.com/file/zpkfb4ownny16fe/Coodesh_challenge-Ildeberto.apk/file)
+

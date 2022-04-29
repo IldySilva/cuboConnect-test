@@ -1,12 +1,11 @@
-import 'package:cubotest/Data/ProductsController/products_controller.dart';
 import 'package:cubotest/Domain/Entities/products_entity.dart';
 import 'package:cubotest/Presentation/state_manager.dart';
 import 'package:extended_masked_text/extended_masked_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-addProduct(ctx) async {
-  var productsController = ProductsController();
+addProductDialog(ctx) async {
+
   var nameTextController = TextEditingController();
   StateManager stateManager = Get.find();
   var priceTextController = MoneyMaskedTextController(leftSymbol: 'R\$ ');
@@ -30,9 +29,9 @@ addProduct(ctx) async {
                   controller: priceTextController,
                   decoration: const InputDecoration(hintText: "Preço"),
                 )),
-            TextButton(
+         TextButton(
                 onPressed: () => Navigator.pop(context),
-                child: Text(
+                child:    const Text(
                   "Cancelar",
                 )),
             Container(
@@ -42,7 +41,7 @@ addProduct(ctx) async {
                       Product product = Product(
                           name: nameTextController.text,
                           price: priceTextController.numberValue);
-                      await productsController.repository
+                      await stateManager.repository
                           .insertProduct(product.toJson());
                       await stateManager.fetchAllProducts();
                       Navigator.pop(context);
