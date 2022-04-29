@@ -17,16 +17,19 @@ Tem como objectivo ajudar o utilizador a anotar quais produtos compra com frequ�
 
 ## Tecnologias
 
-o Aplicativo foi desenvolvido com o framework
-- [Flutter](https://flutter.dev/)
+o Aplicativo foi desenvolvido com o framework [Flutter](https://flutter.dev/)
+
 - [SQLITE](https://pub.dev/packages/sqflite) como base de dados Local
 - [GetX](https://pub.dev/packages/get) como gerenciador de estado
 
+
+utiliza Clean Architecture & uma variação do Padrão MVC
+
 ---
  ## Instalação
--Faça um clone  do repositório
--Instale  as dependencias do projecto ao executar um  'flutter pub get'
--Flutter Run
+- Faça um clone  do repositório
+- Instale  as dependencias do projecto ao executar um  'flutter pub get'
+- Flutter Run
 
 ---
 
