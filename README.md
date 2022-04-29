@@ -10,18 +10,17 @@ Tem como objectivo ajudar o utilizador a anotar quais produtos compra com frequ�
 ---
 
 ## Funcionalidades
-- cadastrar os itens com seus respectivos valores.
--ver os itens cadastrados com seus respectivos valores
--“desmarcar” alguns itens Que não deseja comprar no dia de compra para recalcular o valor total previsto
+- Cadastrar os itens com seus respectivos valores.
+- Ver os itens cadastrados com seus respectivos valores
+- Desmarcar alguns itens Que não deseja comprar no dia de compra para recalcular o valor total previsto
   
----
 
 ## Tecnologias
 
 o Aplicativo foi desenvolvido com o framework
 - [Flutter](https://flutter.dev/)
 - [SQLITE](https://pub.dev/packages/sqflite) como base de dados Local
--[The Well App](https://pub.dev/packages/get_storage) como gerenciador de estado
+- [GetX](https://pub.dev/packages/get) como gerenciador de estado
 
 ---
  ## Instalação
@@ -32,5 +31,5 @@ o Aplicativo foi desenvolvido com o framework
 ---
 
 #### Baixar APK
-### [Link pra Baixar O APK](https://www.mediafire.com/file/zpkfb4ownny16fe/Coodesh_challenge-Ildeberto.apk/file)
+### [Baixar O APK](https://www.mediafire.com/file/0d8qym9t8y5lfpw/CuboReminder.apk/file)
 
