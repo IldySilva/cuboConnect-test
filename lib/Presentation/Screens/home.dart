@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const Text(
-                    "Total ",
+                    "Total",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 16,
