@@ -1,4 +1,4 @@
-# Mobile Front end Challenge by CuboConnect
+# Mobile Front end Challenge 
 
 Desenvolvido para fins de teste de habilidades Técnicas
 
